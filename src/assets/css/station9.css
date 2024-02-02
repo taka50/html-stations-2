@@ -1,0 +1,19 @@
+#animation {
+  animation-name: fadeInAnime; /* アニメーションの定義名 */
+  animation-fill-mode: forwards; /* アニメーション終了時の状態 */
+  animation-duration: 2s; /* アニメーションの長さ */
+  animation-iteration-count: 1; /* アニメーションの回数 */
+  animation-timing-function: linear; /* アニメーションの進行具合 */
+  animation-delay: 0s; /* アニメーションの開始遅延時間 */
+  animation-direction: normal; /* アニメーションの再生向き */
+}
+
+@keyframes fadeInAnime {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
